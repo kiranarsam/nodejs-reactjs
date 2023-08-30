@@ -49,7 +49,7 @@ const Es6ArrowFunctions = () => {
      *
      *
      */
-    // Example: With regular function, 'this' repersents the object that called the function
+    // Example: With regular function, 'this' represents the object that called the function
 
 };
 
