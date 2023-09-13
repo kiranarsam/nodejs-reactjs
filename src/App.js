@@ -7,6 +7,7 @@ import { ReactUseMemoPerformanceHitIssue, ReactUseMemoPerformanceHitIssueFixed }
 import { Todos } from './hooks/use-reducer';
 import { ReactRefTrackingStateChanges, ReactUseRefUsage } from './hooks/use-ref';
 import MyCar from './react-components/r-components';
+import { MyForm04 } from './react-forms/r-forms';
 
 
 
@@ -15,17 +16,18 @@ function App() {
     <div className="App">
       <h1> Hello World! </h1>
       <h3> Hello, I am using React. </h3>
-      <FavoriteColor></FavoriteColor>
+      {/* <FavoriteColor></FavoriteColor> */}
       <TimerUseEffect></TimerUseEffect>
-      <ReactUseRefUsage></ReactUseRefUsage>
-      <ReactRefTrackingStateChanges></ReactRefTrackingStateChanges>
-      <Todos></Todos>
-      <ReactUseCallbackProblem></ReactUseCallbackProblem>
-      <ReactUseCallbackSolution></ReactUseCallbackSolution>
+      {/* <ReactUseRefUsage></ReactUseRefUsage> */}
+      {/* <ReactRefTrackingStateChanges></ReactRefTrackingStateChanges> */}
+      {/* <Todos></Todos> */}
+      {/* <ReactUseCallbackProblem></ReactUseCallbackProblem> */}
+      {/* <ReactUseCallbackSolution></ReactUseCallbackSolution>
       <ReactUseMemoPerformanceHitIssue></ReactUseMemoPerformanceHitIssue>
-      <ReactUseMemoPerformanceHitIssueFixed></ReactUseMemoPerformanceHitIssueFixed>
+      <ReactUseMemoPerformanceHitIssueFixed></ReactUseMemoPerformanceHitIssueFixed> */}
       {/* <Home></Home> */}
       {/* <MyCar></MyCar> */}
+      <MyForm04 />
 
     </div>
   );

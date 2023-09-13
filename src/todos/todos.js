@@ -12,9 +12,24 @@ function Todos({ todos, addTodo }) {
                     return <p key={index}>{todo}</p>;
                 })
             }
-            <button onClick={addTodo}> Add Todo </button>
+            {addTodo &&
+                <button onClick={addTodo}> Add Todo </button>
+            }
+
         </>
     )
 }
+
+export const ProblemTodosComp = ({ todos }) => {
+    console.log("child render");
+    return (
+        <>
+            <h2>My Todos</h2>
+            {todos.map((todo, index) => {
+                return <p key={index}>{todo}</p>;
+            })}
+        </>
+    );
+};
 
 export default memo(Todos);
